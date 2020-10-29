@@ -1,0 +1,11 @@
+● mongod.service - MongoDB Database Server
+   Loaded: loaded (/lib/systemd/system/mongod.service; enabled; vendor preset: enabled)
+   Active: failed (Result: exit-code) since Fri 2020-05-08 18:12:16 CEST; 19s ago
+     Docs: https://docs.mongodb.org/manual
+  Process: 29978 ExecStart=/usr/bin/mongod --config /etc/mongod.conf (code=exited, status=1/FAILURE)
+ Main PID: 29978 (code=exited, status=1/FAILURE)
+
+mai 08 18:12:16 Minotaure systemd[1]: Started MongoDB Database Server.
+mai 08 18:12:16 Minotaure mongod[29978]: 2020-05-08T18:12:16.350+0200 F  CONTROL  [main] Failed global initialization: FileNotOpen: Failed probe for "/home/laryan/ensimag/Documents/Semestre2/Appli_Web_Mobiles/Projet/appliweb/server/logs/mongod.log": Permission denied
+mai 08 18:12:16 Minotaure systemd[1]: mongod.service: Main process exited, code=exited, status=1/FAILURE
+mai 08 18:12:16 Minotaure systemd[1]: mongod.service: Failed with result 'exit-code'.

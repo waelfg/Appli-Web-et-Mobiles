@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainback8"
+    tools:context=".sengmsg">
+
+    <ImageView
+        android:alpha=".55"
+        android:id="@+id/imageView4"
+        android:layout_width="697dp"
+        android:layout_height="481dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.111"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.008"
+        app:srcCompat="@drawable/rect2" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="628dp"
+        android:layout_height="927dp"
+        android:alpha=".45"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/rect3" />
+
+    <Button
+        android:id="@+id/sendmsg"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="480dp"
+        android:layout_marginTop="136dp"
+        android:background="@drawable/sendmsg"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/gallery"
+        android:layout_width="54dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="400dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/galery"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/camera"
+        android:layout_width="54dp"
+        android:layout_height="59dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/camera"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.885"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/typemsg"
+        android:layout_width="481dp"
+        android:layout_height="227dp"
+        android:ems="10"
+        android:fontFamily="@font/roboto_mono_bold"
+        android:inputType="textMultiLine"
+        android:lines="8"
+        android:maxLines="15"
+        android:singleLine="false"
+        android:hint="Enter your message here ..."
+        android:textAlignment="viewStart"
+        android:textColor="#EEEEF1"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.246"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.316" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
